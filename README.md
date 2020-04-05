@@ -21,8 +21,9 @@ The project is about REST API implementation where application is running inside
 ## Running the tests
 
 * Create Docker File for mongo with persistent storage in host machine and another file for image having springboot dependencies.
+* Generate jar file inside SpringBoot by "Maven Install" Dockerfile of springboot.
 * Start the Docker tool/Docker Service.
-* Build the both Docker File and create two docker images.
+* Build the  Docker File and create two docker images.
 * Create the docker-compose file with details of above created images and mention the container name to be launched.
 * Run the docker-compose.yml file and two containers will get launched.
 * Open Postman and send client request to REST API present inside Docker Container
