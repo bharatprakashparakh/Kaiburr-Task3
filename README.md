@@ -25,7 +25,7 @@ The project is about REST API implementation where application is running inside
 * Build the both Docker File and create two docker images.
 * Create the docker-compose file with details of above created images and mention the container name to be launched.
 * Run the docker-compose.yml file and two containers will get launched.
-* Open Postman and send client request to REST API.
+* Open Postman and send client request to REST API present inside Docker Container
 
 ### Break down into end to end tests
 
