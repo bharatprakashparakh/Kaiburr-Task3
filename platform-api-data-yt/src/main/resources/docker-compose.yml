@@ -5,6 +5,8 @@ services:
    container_name: "mymongodb"
    ports:
      - 27017:27017
+   volumes:
+    - ./some/file:C:\Mongo data
  springboot-mongodb:
    image: platform-api-data-ytspring:1.0
    ports:
