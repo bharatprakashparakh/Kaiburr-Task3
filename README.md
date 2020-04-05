@@ -30,7 +30,32 @@ The project is about REST API implementation where application is running inside
 
 ### Break down into end to end tests
 
-* **Find all platforms available.[GET Request]**
+* Dockerfile of mongodb
+
+  ![](https://github.com/bharatprakashparakh/Kaiburr-Task3/blob/master/images/dockerfile%20of%20mongo.PNG)
+  
+* Build the Dockerfile of mongodb
+
+  ![](https://github.com/bharatprakashparakh/Kaiburr-Task3/blob/master/images/build%20dokcer%20file%20of%20mongo.PNG)
+  
+ * Create the image for SpringBoot having REST API using platform-api-data.jar file.
+ 
+  ![](https://github.com/bharatprakashparakh/Kaiburr-Task3/blob/master/images/dockerbuild1.PNG)
+ 
+  
+ * Check the docker images list
+   
+   ![](https://github.com/bharatprakashparakh/Kaiburr-Task3/blob/master/images/docker%20image%20list.PNG)
+   
+ * Use docker-compose.yml to run two conatiners parallely using above created 2 images.
+   
+   ![](https://github.com/bharatprakashparakh/Kaiburr-Task3/blob/master/images/compose1.PNG)
+   
+   ![](https://github.com/bharatprakashparakh/Kaiburr-Task3/blob/master/images/compose2.PNG)
+   
+   ![](https://github.com/bharatprakashparakh/Kaiburr-Task3/blob/master/images/compose3.PNG)
+   
+  Now send the HTTP client request from Postman to REST API running inside Docker container. The resouces will be accessed from the       persistent Mongo DB.
 
 
 ## Built With
