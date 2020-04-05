@@ -46,6 +46,10 @@ The project is about REST API implementation where application is running inside
  * Check the docker images list
    
    ![](https://github.com/bharatprakashparakh/Kaiburr-Task3/blob/master/images/docker%20image%20list.PNG)
+ 
+ * Create docker-compose.yml file for Docker Compose .
+ 
+   ![](https://github.com/bharatprakashparakh/Kaiburr-Task3/blob/master/images/compose.yml%20file.PNG)
    
  * Use docker-compose.yml to run two conatiners parallely using above created 2 images.
    
